@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+
+html * {
+	box-sizing: border-box;
+}
+
+body {
+	// 取消user-agent默认的margin和padding
+	margin		: 0;
+	padding		: 0;
+}

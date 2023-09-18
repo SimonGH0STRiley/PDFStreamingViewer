@@ -1,0 +1,23 @@
+:host {
+	.pdf-viewer-wrapper {
+		.viewer-toolbar {
+			display			: flex;
+			flex-direction	: row;
+			justify-content	: center;
+			align-items		: center;
+			padding			: 20px;
+			background		: #282C34;
+		}
+
+		.viewer-container {
+			display			: grid;
+			justify-content	: center;
+			align-items		: center;
+			grid-column-gap	: 20px;
+			grid-row-gap	: 20px;
+			grid-template-columns	: repeat(auto-fill, 918px);
+			padding			: 20px;
+			background		: #282C34;
+		}
+	}
+}
