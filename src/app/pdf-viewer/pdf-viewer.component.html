@@ -1,7 +1,9 @@
 <div class="pdf-viewer-wrapper">
 	<div class="viewer-toolbar">
-		<button>上一页</button>
-		<button>下一页</button>
+		<button (click)="toPreviousPage()">上一页</button>
+		<button (click)="toNextPage()">下一页</button>
 	</div>
-	<div class="viewer-container" #viewerContainer></div>
+	<div class="viewer-container">
+		<canvas #viewerCanvas></canvas>
+	</div>
 </div>
